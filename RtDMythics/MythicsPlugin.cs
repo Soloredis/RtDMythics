@@ -14,8 +14,6 @@ namespace RtDMythics
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Major)]
     [BepInDependency("com.jotunn.jotunn", BepInDependency.DependencyFlags.HardDependency)]
     [BepInIncompatibility("blacks7ar.SeedBed")]
-    [BepInIncompatibility("randyknapp.mods.epicloot")]
-    [BepInIncompatibility("org.bepinex.plugins.valheim_plus")]
     
     internal partial class RtDMythics : BaseUnityPlugin
     {
@@ -23,7 +21,7 @@ namespace RtDMythics
 
         public const string PluginName = "RtDMythics";
 
-        public const string PluginVersion = "1.2.95";
+        public const string PluginVersion = "1.2.98";
 
         private AssetBundle MyAssets;
 
