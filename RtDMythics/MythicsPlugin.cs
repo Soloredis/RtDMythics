@@ -21,7 +21,7 @@ namespace RtDMythics
 
         public const string PluginName = "RtDMythics";
 
-        public const string PluginVersion = "1.3.15";
+        public const string PluginVersion = "1.3.17";
 
         private AssetBundle MyAssets;
 
@@ -105,7 +105,7 @@ namespace RtDMythics
             "fx_FaeShieldBreak_RtD",
             "fx_FaeShieldHit_RtD",
             //AshLands Fae
-            "ArcaneExplosionAshLandsFairy_RtD",
+            "ArcaneExplosionAllFairy_RtD",
             "FaeHealAOEAshLands_RtD",
             "FaeHealSpellAshLands_RtD",
             "FaeMeleeAshLands_RtD",
@@ -116,7 +116,6 @@ namespace RtDMythics
             "FireProjectileFairy_RtD",
 
             //AshLands Pixie
-            "ArcaneExplosionAshlandsPixie_RtD",
             "PixieExplosionAshLands_RtD",
             "PixieHealAOEAshLands_RtD",
             "PixieHealSpellAshLands_RtD",
@@ -127,7 +126,6 @@ namespace RtDMythics
             "PixieSpellAshLands_RtD",
 
             // BlackForest Fae
-            "ArcaneExplosionBlackForestFairy_RtD",
             "FaeHealAOEBlackForest_RtD",
             "FaeHealSpellBlackForest_RtD",
             "FaeMeleeBlackForest_RtD",
@@ -138,7 +136,6 @@ namespace RtDMythics
             "LightningProjectileBlackForest_RtD",
 
             // BlackForest Pixie
-            "ArcaneExplosionBlackForestPixie_RtD",
             "LightningExplosionPixie_RtD",
             "LightningProjectilePixie_RtD",
             "PixieHealAOEBlackForest_RtD",
@@ -149,8 +146,6 @@ namespace RtDMythics
             "PixieSpellBlackForest_RtD",
 
             // DeepNorth Fae
-            "ArcaneExplosionDeepNorthFairy_RtD",
-            "ArcaneExplosionDeepNorthFairyDeath_RtD",
             "ArcaneProjectileDeepNorthFairy_RtD",
             "FaeHealAOEDeepNorth_RtD",
             "FaeHealSpellDeepNorth_RtD",
@@ -160,9 +155,8 @@ namespace RtDMythics
             "FaeSpellDeepNorth_RtD",
 
             // DeepNorth Pixie
-            "ArcaneExplosionDeepNorthPixieDeath_RtD",
-            "ArcaneProfjectileDeepNorthPixie_RtD",
-            "ArecaneExplosionDeepNorthPixie_RtD",
+            "ArcaneProjectileDeepNorthPixie_RtD",
+            "ArcaneExplosionDeepNorthPixie_RtD",
             "PixieHealAOEDeepNorth_RtD",
             "PixieHealSpellDeepNorth_RtD",
             "PixieMeleeDeepNorth1_RtD",
@@ -175,7 +169,6 @@ namespace RtDMythics
             // Meadows Fae
             "AirExplosionFairy_RtD",
             "AirProjectileFairy_RtD",
-            "ArcaneExplosionMeadowsFairy_RtD",
             "FaeHealAOEMeadows_RtD",
             "FaeHealSpellMeadows_RtD",
             "FaeMeleeMeadows_RtD",
@@ -186,7 +179,6 @@ namespace RtDMythics
             // Meadows Pixie'
             "AirExplosionPixie_RtD",
             "AirProjectilePixie_RtD",
-            "ArcaneExplosionMeadowsPixie_RtD",
             "PixieHealAOEMeadows_RtD",
             "PixieHealSpellMeadows_RtD",
             "PixieMeleeMeadows_RtD",
@@ -195,7 +187,6 @@ namespace RtDMythics
             "PixieSpellMeadows_RtD",
 
             // Mistlands Fae
-            "ArcaneExplosionMistlandsFairy_RtD",
             "FaeHealAOEMistlands_RtD",
             "FaeHealSpellMistlands_RtD",
             "FaeMeleeMistlands_RtD",
@@ -206,7 +197,6 @@ namespace RtDMythics
             "LightProjectileFairy_RtD",
 
             // Mistlands Pixie
-            "ArcaneExplosionMistlandsPixie_RtD",
             "LightExplosionPixie_RtD",
             "LightProjectilePixie_RtD",
             "PixieHealAOEMistlands_RtD",
@@ -217,7 +207,6 @@ namespace RtDMythics
             "PixieSpellMistlands_RtD",
 
             // Mountain Fae
-            "ArcaneExplosionMountainFairy_RtD",
             "FaeHealAOEMountain_RtD",
             "FaeHealSpellMountain_RtD",
             "FaeMeleeMountain_RtD",
@@ -228,7 +217,6 @@ namespace RtDMythics
             "IceProjectileMountain_RtD",
 
             // Mountain Pixie
-            "ArcaneExplosionMountainPixie_RtD",
             "IceExplosionPixie_RtD",
             "IceProjectilePixie_RtD",
             "PixeHealSpellMountain_RtD",
@@ -239,7 +227,6 @@ namespace RtDMythics
             "PixieSpellMountain_RtD",
 
             // Plains Fae
-            "ArcaneExplosionPlainsFairy_RtD",
             "FaeHealAOEPlains_RtD",
             "FaeHealSpellPlains_RtD",
             "FaeMeleePlains_RtD",
@@ -250,7 +237,6 @@ namespace RtDMythics
             "VoidProjectilePlainsFairy_RtD",
 
             // Plains Pixie
-            "ArcaneExplosionPlainsPixie_RtD",
             "PixieHealAOEPlains_RtD",
             "PixieHealSpellPlains_RtD",
             "PixieMeleePlains_RtD",
@@ -261,7 +247,6 @@ namespace RtDMythics
             "VoidProjectilePlainsPixie_RtD",
 
             // Swamp Fairy 
-            "ArcaneExplosionSwampFairy_RtD",
             "EarthExlosionFairy_RtD",
             "EarthProjectileFairy_RtD",
             "FaeHealAOESwamp_RtD",
@@ -272,7 +257,6 @@ namespace RtDMythics
             "FaeSpellSwamp_RtD",
 
             // Swamp Pixie
-            "ArcaneExplosionSwampPixie_RtD",
             "EarthExplosionPixie_RtD",
             "EarthProjectilePixie_RtD",
             "PixieHealAOESwamp_RtD",
@@ -341,16 +325,6 @@ namespace RtDMythics
             "vfx_whitespirit_death_RtD",
             "vfx_yellowspirit_death_RtD",
 
-            // Spirit Attacks
-            "SAshLandsAttackF_RtD1",
-            "SBlackForestAttackF_RtD1",
-            "SDeepNorthAttackF_RtD1",
-            "SMeadowsAttackF_RtD1",
-            "SMIstlandsAttackF_RtD1",
-            "SMountainAttackF_RtD1",
-            "SPlainsAttackF_RtD1",
-            "SSwampAttackF_RtD1",
-
             // Spirit FX
             "vfx_spiritmonster_death2_RtD",
             "vfx_spirittmonster_hit2_RtD",
@@ -370,14 +344,13 @@ namespace RtDMythics
             "ArcaneLargeAOE_RtD",
             "ArcaneMediumAOE_RtD",
             "ArcaneSmallAOE_RtD",
-            "EarthQuakeMistLandsAOE_RtD",
-            "EarthShieldSwampAOE_RtD",
+            "EarthSpikeAOE_RtD",
             "FireLargeAOE_RtD",
             "FireMediumAOE_RtD",
             "FireRingBlackForestAOE_RtD",
             "FireSmallAOE_RtD",
             "FrostEnchantmentMountainAOE_RtD",
-            "LightDamgeAOE_RtD",
+            "LightDamageAOE_RtD",
             "LighteningRainBlackForestAOE_RtD",
             "VoidAOE_RtD",
             "WaterAOE_RtD",
@@ -464,74 +437,7 @@ namespace RtDMythics
             "LightProjectileAOE_RtD",
             "VoidProjectileAOE_RtD",
             "WaterProjectileAOE_RtD",
-            
-            "webeggprojectile_RtD1",
-            "blackforestmutantprojectile_RtD1",
-            "deepnorthmutantprojectile_RtD1",
-            "meadowsmutantprojectile_RtD1",
-            "mistlandsmutantprojectile_RtD1",
-            "mountainmutantprojectile2_RtD1",
-            "mountainmutantprojectile3_RtD1",
-            "mountainmutantprojectile_RtD1",
-            "plainsmutantprojectile_RtD2",
-            "sizzleprojectile_RtD1",
-            "spawn_earthstorm_RtD1",
-            "spawn_firestorm_RtD1",
-            "spawn_icestorm2_RtD1",
-            "spawn_icestorm_RtD1",
-            "spawn_meteorstorm_RtD1",
-            "spawn_sizzlerstorm_RtD1",
-            "spawn_spikeballstorm_RtD1",
-            "spawn_voidstorm_RtD1",
-            "swampmutantprojectile2_RtD1",
-            "swampmutantprojectile_RtD1",
-            "mountainmutantprojectile_RtD2",
-            "ashlandsmutantprojectile_RtD1",
-            "AirBlast_RtD1",
-            "ArcaneBlast_RtD1",
-            "EarthBlast_RtD1",
-            "EarthCurse_RtD1",
-            "ElectricBlast_RtD1",
-            "FireBlast_RtD1",
-            "FrostBlast_RtD1",
-            "HealingBlast_RtD1",
-            "HolyBlast_RtD1",
-            "LighteningCurse_RtD1",
-            "StormCurse_RtD1",
-            "VoidCurse_RtD1",
-            "WaterBlast_RtD1",
-            "AirSpray_RtD1",
-            "ArcaneSpray_RtD1",
-            "EarthSpray_Rtd1",
-            "ElectricSpray_RtD1",
-            "FireSpray_RtD1",
-            "FireSprayAOE_RtD1",
-            "FrostSpray_RtD1",
-            "HealingSpray_RtD1",
-            "HolySpray_RtD1",
-            "VoidSpray_RtD1",
-            "WaterSpray_RtD1",
-            "AirRainAOE1_RtD1",
-            "ArcaneRain1_RtD1",
-            "EarthPillarM_RtD1",
-            "EarthRainAOE2_RtD1",
-            "EarthRainAOE1_RtD1",
-            "ElectricRainAOE1_RtD1",
-            "FirePillarMAOE1_RtD1",
-            "FireRainAOE2_RtD1",
-            "FireRainAOE1_RtD1",
-            "FrostRainAOE2_RtD1",
-            "FrostRainAOE3_RtD1",
-            "FrostRainAOE1_RtD1",
-            "HealingRainAOE1_RtD1",
-            "HolyRainAOE1_RtD1",
-            "IcePillarM1_RtD1",
-            "LighteningPillarB_RtD1",
-            "VoidRainAOE2_RtD1",
-            "VoidRainAOE1_RtD1",
-            "WaterRainAOE1_RtD1",
-            "FrostBlast01_RtD",
-            "AirBlast01_RtD",
+            "AirBlastAOE_RtD",
             "Ragdoll_AshLandsHorror_RtD",
             "Ragdoll_AshLandsHorror01_RtD",
             "Ragdoll_BlackForestHorror_RtD",
@@ -579,12 +485,17 @@ namespace RtDMythics
             "SwampMutantMelee2_RtD",
             "SwampMutantMelee3_RtD",
             "SwampMutantSpell_RtD",
-            "AshLandsMutantMelee1_RtD1",
-            "BlackForestMutantMelee1_01_RtD",
-            "BlackForestMutantMelee3_01_RtD",
             "MeadowsMutantSummon01_RtD",
-            "LightningBlast01_RtD4",
+            "LightningBlast01_RtD",
             "MountainMutantSpell01_RtD",
+            "SAshLandsAttackF_RtD",
+            "SBlackForestAttackF_RtD",
+            "SDeepNorthAttackF_RtD",
+            "SMeadowsAttackF_RtD",
+            "SMIstlandsAttackF_RtD",
+            "SMountainAttackF_RtD",
+            "SPlainsAttackF_RtD",
+            "SSwampAttackF_RtD",
             "seeker_attack1_RtD",
             "seeker_attack2_RtD",
             "seeker_attack3_RtD",
@@ -599,22 +510,6 @@ namespace RtDMythics
             "SwampHorrorMelee3_RtD",
             "SwampHorrorSpell_RtD",
             "SwampHorrorSummon1_RtD",
-            "ArcaneExplosionSmall1_RtD1",
-            "EarthExplosionLarge1_RtD1",
-            "EarthExplosionSmall1_RtD1",
-            "EggExplosion_RtD1",
-            "FireExplosionSmall1_RtD1",
-            "FrostExplosionLarge1_RtD1",
-            "FrostExplosionSmall1_RtD1",
-            "LightningExplosionSmall1_RtD1",
-            "SpikyExplosionSmall1_RtD1",
-            "StormExplosionSmall1_RtD1",
-            "vfx_bloodsplat_death_RtD1",
-            "vfx_bloodsplat_hit_RtD1",
-            "VFX_IceSpray_RtD1",
-            "VoidExplosionSmall1_RtD1",
-            "fx_Queen_Run_RtD1",
-            "fx_Queen_Walk_RtD1",
             "Spawner_AshLandsHorror_RtD",
             "Spawner_BlackForestHorror_RtD",
             "Spawner_DeepNorthHorror_RtD",
@@ -705,7 +600,31 @@ namespace RtDMythics
             "sfx_mutant7_idle_RtD",
             "sfx_mutant8_alerted_RtD",
             "sfx_mutant8_idle_RtD",
-            "sfx_mutant1_attack_RtD"
+            "sfx_mutant1_attack_RtD",
+            "SpiritSFX_RtD",
+            "SFX_ShieldBreak_RtD",
+            "SFX_ShieldHit_RtD",
+            "SFX_ArcaneExplosionAllFairy_RtD",
+            "SFX_Impact_Air_RtD",
+            "SFX_Impact_Arcane_RtD",
+            "SFX_Impact_Earth_RtD",
+            "SFX_Impact_Fire_RtD",
+            "SFX_Impact_Frost_RtD",
+            "SFX_Impact_Life_RtD",
+            "SFX_Impact_Light_RtD",
+            "SFX_Impact_Lightning_RtD",
+            "SFX_Impact_Void_RtD",
+            "SFX_Impact_Water_RtD",
+            "SFX_Loop_Air_RtD",
+            "SFX_Loop_Arcane_RtD",
+            "SFX_Loop_Earth_RtD",
+            "SFX_Loop_Fire_RtD",
+            "SFX_Loop_Frost_RtD",
+            "SFX_Loop_Life_RtD",
+            "SFX_Loop_Light_RtD",
+            "SFX_Loop_Lightning_RtD",
+            "SFX_Loop_Void_RtD",
+            "SFX_Loop_Water_RtD"
         };
 
         public string[] StaticFaeList0 = new string[]
