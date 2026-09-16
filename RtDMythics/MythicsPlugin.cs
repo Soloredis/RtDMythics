@@ -21,7 +21,7 @@ namespace RtDMythics
 
         public const string PluginName = "RtDMythics";
 
-        public const string PluginVersion = "1.3.17";
+        public const string PluginVersion = "1.3.18";
 
         private AssetBundle MyAssets;
 
@@ -488,14 +488,6 @@ namespace RtDMythics
             "MeadowsMutantSummon01_RtD",
             "LightningBlast01_RtD",
             "MountainMutantSpell01_RtD",
-            "SAshLandsAttackF_RtD",
-            "SBlackForestAttackF_RtD",
-            "SDeepNorthAttackF_RtD",
-            "SMeadowsAttackF_RtD",
-            "SMIstlandsAttackF_RtD",
-            "SMountainAttackF_RtD",
-            "SPlainsAttackF_RtD",
-            "SSwampAttackF_RtD",
             "seeker_attack1_RtD",
             "seeker_attack2_RtD",
             "seeker_attack3_RtD",
