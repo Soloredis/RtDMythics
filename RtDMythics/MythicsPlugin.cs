@@ -21,7 +21,7 @@ namespace RtDMythics
 
         public const string PluginName = "RtDMythics";
 
-        public const string PluginVersion = "1.3.25";
+        public const string PluginVersion = "1.3.26";
 
         private AssetBundle MyAssets;
 
@@ -73,7 +73,8 @@ namespace RtDMythics
             "SE_Mage_Armor_Mistlands_RtD",
             "SE_Mage_Armor_Mountain_RtD",
             "SE_Mage_Armor_Plains_RtD",
-            "SE_Mage_Armor_Swamp_RtD"
+            "SE_Mage_Armor_Swamp_RtD",
+            "SlowFallMage_RtD"
         };
         
         public string[] ItemsList = new string[]
