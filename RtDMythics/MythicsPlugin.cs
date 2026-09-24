@@ -21,7 +21,7 @@ namespace RtDMythics
 
         public const string PluginName = "RtDMythics";
 
-        public const string PluginVersion = "1.3.26";
+        public const string PluginVersion = "1.3.27";
 
         private AssetBundle MyAssets;
 

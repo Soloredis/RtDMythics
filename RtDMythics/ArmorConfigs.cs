@@ -130,7 +130,7 @@ namespace RtDMythics
             new string[] { "SpiritEssense_RtD", "SwampCrystal_RtD", "FairyCoreSwamp_RtD", "BlackForestMageChest_RtD" },
             new string[] { "SpiritEssense_RtD", "SwampCrystal_RtD", "FairyCoreSwamp_RtD", "BlackForestMageHood_RtD" },
             new string[] { "SpiritEssense_RtD", "SwampCrystal_RtD", "FairyCoreSwamp_RtD", "BlackForestMageLegs_RtD" },
-            new string[] { "SpiritEssense_RtD", "SwampCrystal_RtD", "FairyCoreSwamp_RtD", "BlackForestMageLegs_RtD" },
+            new string[] { "SpiritEssense_RtD", "SwampCrystal_RtD", "FairyCoreSwamp_RtD", "CapeDeerHide" },
             // Mountain
             new string[] { "SpiritEssense_RtD", "MountainCrystal_RtD", "FairyCoreMountain_RtD", "SwampMageChest_RtD" },
             new string[] { "SpiritEssense_RtD", "MountainCrystal_RtD", "FairyCoreMountain_RtD", "SwampMageHood_RtD" },
