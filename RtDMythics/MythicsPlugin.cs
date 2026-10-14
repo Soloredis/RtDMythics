@@ -21,7 +21,7 @@ namespace RtDMythics
 
         public const string PluginName = "RtDMythics";
 
-        public const string PluginVersion = "1.3.27";
+        public const string PluginVersion = "1.3.35";
 
         private AssetBundle MyAssets;
 
@@ -268,7 +268,6 @@ namespace RtDMythics
             "PixieSpellSwamp_RtD",
 
             // FX
-            "fx_faehit_RtD",
             "fx_fae_protect_RtD",
             "vfx_FaeShield_RtD",
             "fx_faedeath_RtD",
@@ -617,7 +616,8 @@ namespace RtDMythics
             "SFX_Loop_Light_RtD",
             "SFX_Loop_Lightning_RtD",
             "SFX_Loop_Void_RtD",
-            "SFX_Loop_Water_RtD"
+            "SFX_Loop_Water_RtD",
+            "sfx_faehit_RtD"
         };
 
         public string[] StaticFaeList0 = new string[]
@@ -895,6 +895,7 @@ namespace RtDMythics
             MistlandsSpawner();
             AshlandsSpawner();
             DeepNorthSpawner();
+            CreateMonsterConfigs();
             
             // On prefabs awake
             
