@@ -51,9 +51,7 @@ All RtD mods use optimized 256 texture sizes and reduced render distances for be
 * If you enjoy the hundreds of hours put into this overhaul and want to show some love, you can support my work via Patreon.
 * Many authors are moving to  which supports Gale mod manager.
 * [Patreon](https://www.patreon.com/c/Soloredis/about)
-* [Hexium](https://mods.valtools.org/)
 * [RtD Discord](https://discord.gg/mx4WK39z54)
-* [Hexium Discord](https://discord.gg/nfCQBKYPvH)
 
 # Licensing
 
